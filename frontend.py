@@ -1,5 +1,6 @@
 import streamlit as st
 import wifi
+from vars import relayPin, moistureSensorPin
 
 # Define constants
 MIN_MOISTURE_LEVEL = 400
