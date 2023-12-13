@@ -1,4 +1,5 @@
 import streamlit as st
+import wifi
 
 # Define constants
 MIN_MOISTURE_LEVEL = 400
