@@ -1,10 +1,14 @@
 #include <ESP8266WiFi.h>
 
+#define BLYNK_TEMPLATE_ID "TMPL32pYYpA32"
+#define BLYNK_TEMPLATE_NAME "Quickstart Template"
+#define BLYNK_AUTH_TOKEN "ld3umeGtBbSUmZaDWpK9UtULKyKHaeFq"
+
 const char* ssid = "YOUR_WIFI_SSID";
 const char* password = "YOUR_WIFI_PASSWORD";
 
 const int moistureSensorPin = A0; // Analog pin connected to the moisture sensor
-const int relayPin = D5; // Digital pin connected to the relay controlling the pump
+const int relayPin = D1; // Digital pin connected to the relay controlling the pump
 
 const int minMoistureLevel = 400; // Minimum moisture level before activating the pump
 const int pumpDuration = 30; // Pump duration in seconds
